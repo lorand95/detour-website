@@ -1,0 +1,91 @@
+.wrapper h1 {
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 30px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.registration {
+    display: flex;
+    margin: 100px auto;
+}
+
+.registration legend {
+    color: #fff;
+    text-align: center;
+    font-size: 14pt;
+}
+
+.registration form {
+    display: flex;
+    margin: 0 auto;
+}
+
+.registration fieldset {
+    background-color: rgba(0, 128, 79, 0.623);
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.registration ul {
+    width: 100%;
+    padding: 20px;
+    list-style: none;
+    background-color: rgba(2, 4, 3, 0.507);
+    margin: 0;
+    border-bottom: 3px solid rgb(0, 192, 64);
+}
+
+.registration li {
+    margin: 0 0 30px 0;
+    color: #fff;
+}
+
+.registration label {
+    display: block;
+    padding: 5px 15px;
+}
+
+.registration input {
+    margin: 0 15px;
+    padding: 8px 0;
+    font-size: 15pt;
+}
+
+.registration button {
+    padding: 15px 30px;
+    background: #ffae2b
+}
+
+.registration button:hover {
+    background: #a14a02
+}
+
+.registration .input-format input {
+    width: 92.5%;
+}
+
+form .reg-button {
+    display: flex;
+    border: none;
+    background-color: rgb(77, 128, 57);
+    font-weight: bold;
+    font-size: 13pt;
+    padding: 20px 30px;
+    margin: 25px auto;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+form .reg-button:hover {
+    background-color: rgb(119, 199, 88);
+    color: black;
+}
+
+.check label {
+    font-size: 10pt;
+}

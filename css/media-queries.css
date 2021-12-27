@@ -1,0 +1,184 @@
+@media only screen and (max-width: 1750px) {
+  .latest a {
+    width: 72%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .wrapper {
+    width: 100%;
+  }
+
+  .logo {
+    background-size: 80%;
+  }
+
+  .logo:hover {
+    background-size: 85%;
+  }
+
+  .main-nav {
+    display: none;
+    float: right;
+  }
+
+  .main-nav li {
+    margin: 0 30px 30px 0px;
+  }
+
+  .main-nav a {
+    padding: 0;
+  }
+
+  .mobile-nav-icon {
+    display: flex;
+  }
+
+  .content-1 {
+    height: auto;
+  }
+
+  .content-1 h1 {
+    font-size: 20pt;
+  }
+
+  .content-1 p {
+    font-size: 10pt;
+  }
+
+  .content-1 .col {
+    padding-bottom: 10px;
+  }
+  .content-1 .picture-1,
+  .content-1 .picture-2,
+  .content-1 .picture-3 {
+    height: auto;
+  }
+
+  .content-2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .latest {
+    width: 50%;
+  }
+
+  .latest:nth-child(3n + 0) {
+    background-color: rgba(18, 73, 45, 0.507);
+  }
+
+  .latest:nth-child(3n + 1) {
+    background-color: rgba(34, 155, 92, 0.507);
+  }
+
+  .gallery {
+    grid-template-areas:
+      "img-1 img-1 img-2 img-2"
+      "img-3 img-3 img-4 img-4"
+      "img-5 img-5 img-6 img-6"
+      "img-7 img-7 img-8 img-8"
+      "img-9 img-9 img-10 img-10"
+      "img-11 img-11 img-12 img-12"
+      "img-13 img-13 img-14 img-14";
+  }
+
+  .ow-col-1 h1 {
+    font-size: 15pt;
+  }
+
+  .ow-col-1 p {
+    font-size: 12pt;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .logo {
+    background-size: 100%;
+  }
+
+  .logo:hover {
+    background-size: 105%;
+  }
+
+  .main-nav {
+    display: none;
+    float: right;
+  }
+
+  .main-nav li {
+    margin: 0 30px 30px 0px;
+  }
+
+  .main-nav a {
+    padding: 0;
+  }
+
+  .mobile-nav-icon {
+    display: flex;
+  }
+
+  .content-1 {
+    height: auto;
+  }
+
+  .content-1 .picture-1,
+  .content-1 .picture-2,
+  .content-1 .picture-3 {
+    height: auto;
+  }
+
+  .content-1 h1 {
+    font-size: 20pt;
+  }
+
+  .content-1 p {
+    font-size: 8pt;
+  }
+
+  .content-2 {
+    flex-wrap: wrap;
+  }
+
+  .latest {
+    width: 100%;
+  }
+
+  .latest:nth-child(2n + 0) {
+    background-color: rgba(18, 73, 45, 0.507);
+  }
+
+  .latest:nth-child(2n + 1) {
+    background-color: rgba(34, 155, 92, 0.507);
+  }
+  footer {
+    justify-content: center;
+  }
+
+  footer .footer-menu {
+    display: none;
+  }
+
+  footer .icons {
+    justify-content: space-between;
+  }
+
+  .gallery {
+    grid-template-areas:
+      "img-1 img-1 img-1 img-2"
+      "img-3 img-4 img-4 img-4"
+      "img-5 img-5 img-5 img-6"
+      "img-7 img-8 img-8 img-8"
+      "img-9 img-9 img-9 img-10"
+      "img-11 img-12 img-12 img-12"
+      "img-13 img-13 img-13 img-14";
+  }
+
+  .gallery-img:hover {
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+}
